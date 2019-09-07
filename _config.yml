@@ -1,5 +1,5 @@
 name: Markdown Tutorial
-url: "localhost:markdowntutorial.herokuapp.com"
+url: "http://markdowntutorial.herokuapp.com"
 permalink: pretty
 exclude: [
   # Folders
@@ -17,6 +17,6 @@ exclude: [
   "bower.json",
   "config.ru"
 ]
-baseurl: localhost:markdowntutorial.herokuapp.com
+baseurl: https://markdowntutorial.herokuapp.com
 gems:
   - jekyll-coffeescript
