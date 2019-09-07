@@ -1,0 +1,169 @@
+---
+layout: default
+title: Lists
+number: 6
+---
+
+<div class="row">
+  <p>W tym samouczku chodzi o tworzenie list w Markdown.</p>
+
+  <p>
+    W Markdownie istnieją dwa rodzaje list: nieuporządkowane i uporządkowane. To
+    fantazyjny sposób powiedzenia, że istnieją listy z punktami i listy z
+    numerami.
+  </p>
+  <p>
+    Aby utworzyć nieuporządkowaną listę, należy poprzedzić każdą pozycję na
+    liście gwiazdką (<code> * </code>). Każdy element listy ma również własną
+    linię. Na przykład lista artykułów spożywczych w Markdown może wyglądać
+    następująco:
+  </p>
+  <pre>
+      * Mleko
+      * Jajka
+      * Łosoś
+      * Masło
+</pre
+  >
+  <p>Ta lista Markdown byłaby renderowana w następujące punkty:</p>
+  <ul>
+    <li>Mleko</li>
+    <li>Jajka</li>
+    <li>Łosoś</li>
+    <li>Masło</li>
+  </ul>
+  <p>
+    W polu poniżej zamień słowa rozdzielone przecinkiem na listę. (Upewnij się,
+    że nie pozostawiłeś spacji na koncu lini)
+  </p>
+  <div class="col-md-5 scratchpad"></div>
+  <span
+    class="help-tooltip icon-question"
+    data-toggle="tooltip"
+    data-original-title="Wpisz swoje odpowiedzi w lewym polu, a wynikowy Markdown pojawi się w prawym polu. Gdy twoja odpowiedź będzie prawidłowa, przejdziesz do następnej lekcji"
+  ></span>
+  <div class="col-md-5 renderpad"></div>
+</div>
+<button class="btn btn-default btn-skip">Skip</button>
+
+<div class="toBeRevealed">
+  <div class="row">
+    <hr />
+    <p>
+      W porządku! W ten sposób piszesz nieuporządkowaną listę. Porozmawiajmy
+      teraz o zamówionych.
+    </p>
+    <p>
+      Uporządkowana lista jest poprzedzona cyframi, a nie gwiazdkami. Spójrz na
+      ten przepis:
+    </p>
+    <ol>
+      <li>Rozbij trzy jajka na misce</li>
+      <li>Wlej litr mleka do miski</li>
+      <li>Energicznie natrzyj łososia masłem</li>
+      <li>Wrzuć łososia do miski z jajkiem</li>
+    </ol>
+    <p>Aby napisać to w Markdown, zrób to:</p>
+    <pre>
+        1. Rozbij trzy jajka na misce
+        2. Wlej litr mleka do miski
+        3. Energicznie natrzyj łososia masłem
+        4. Wrzuć łososia do miski z jajkiem
+      </pre
+    >
+    <p>Łatwe, prawda?</p>
+    <p>W polu poniżej zmień resztę przepisu na uporządkowaną listę.</p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Pomiń</button>
+</div>
+
+<div class="toBeRevealed">
+  <div class="row">
+    <hr />
+    <p>Fantastyczna robota!</p>
+    <p>
+      Możesz dodać kursywe, pogrubienie lub linki do list, zgodnie z poprzednimi
+      ćwiczeniami. W polu poniżej zmień łacińskie nazwy roślin na kursywę.
+    </p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Pomiń</button>
+</div>
+
+<div class="toBeRevealed">
+  <div class="row">
+    <hr />
+    <p>Wspaniale!</p>
+    <p>
+      Czasami może być konieczne utworzenie listy
+      <em>zagnieżdżenej</em> jednej w drugiej. Nie bój się, ponieważ składnia
+      Markdown na to pozwala i działa dokładnie tak samo. Wszystko, co musisz
+      zrobić, to pamiętać o wcięciu każdej gwiazdki
+      <em>o jedną spacje wiecej</em> niż poprzedni element.
+    </p>
+    <p>
+      Na przykład na poniższej liście dodamy kilka podlist. Każdy „główny”
+      element listy, jest opisany szczegółowo:
+    </p>
+    <pre>
+* Kowalski
+  * Reporter
+  * Ma puszyste pomarańczowe włosy
+  * Ma najbardziej niesamowitego psa na świecie
+* Nowakoski
+  * Kapitan morski
+  * Ma fantastyczną brodę
+  * Uwielbia whisky
+    * Szkocka
+</pre
+    >
+    <p>When rendered, this list turns into the following grouping:</p>
+    <p></p>
+    <ul>
+      <li>
+        Kowalski
+        <ul>
+          <li>Reporter</li>
+          <li>Ma puszyste pomarańczowe włosy</li>
+          <li>Ma najbardziej niesamowitego psa na świecie</li>
+        </ul>
+      </li>
+      <li>
+        Nowakoski
+        <ul>
+          <li>Kapitan morski</li>
+          <li>Ma fantastyczną brodę</li>
+          <li>
+            Uwielbia whisky
+            <ul>
+              <li>Szkocka</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      W polu poniżej dokonaj tego samego.
+      <strong
+        >Upewnij się się, że nie pozostawiłeś spacji ani przecinka na koncu
+        lini</strong
+      >
+      (teraz to wydaj się głupie i monotnonne ale dokładność to bardzo cenna
+      umiejętność podczas programowania):
+    </p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Pomiń</button>
+</div>
+
+<div class="toBeRevealed">
+  <hr />
+  <p>Wiesz już, jak tworzyć listy w Markdown!</p>
+  <a class="btn btn-lg btn-success" href="{{ site.baseurl}}/conclusion"
+    >Do podsumowania!</a
+  >
+</div>

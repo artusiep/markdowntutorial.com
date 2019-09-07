@@ -1,0 +1,22 @@
+name: Markdown Tutorial
+# url: "localhost"
+permalink: pretty
+exclude: [
+  # Folders
+  "bin",
+  "script",
+  "vendor",
+  "spec",
+
+  # Files
+  "*.sublime*",
+  "Gemfile*",
+  "CONTRIBUTING.md",
+  "README.md",
+  "Rakefile",
+  "bower.json",
+  "config.ru"
+]
+# baseurl: localhost
+gems:
+  - jekyll-coffeescript

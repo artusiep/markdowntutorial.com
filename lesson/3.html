@@ -1,0 +1,118 @@
+---
+layout: default
+title: Linki
+number: 3
+---
+
+<div class="row">
+  <p>Teraz nauczymy się, jak tworzyć linki do innych stron w sieci WWW.</p>
+
+  <p>
+    Istnieją dwa różne typy linków w Markdown, ale oba renderują linki dokładnie
+    w ten sam sposób. Pierwszy styl linku nazywa się <em>linkiem inline</em>.
+    Aby utworzyć łącze inline, otocz tekst łącza w nawiasach kwadratowych
+    (<code>[]</code>), a następnie otocz link zwykłym nawiasem
+    (<code>()</code>). Na przykład, aby utworzyć hiperłącze do www.github.com z
+    tytułem linku z napisem "Odwiedź GitHub!"", Napiszesz to w Markdown:
+    <code>[Odwiedź GitHub!](www.github.com)</code>.
+  </p>
+
+  <p>
+    W polu poniżej utwórz link do www.google.com, podając tytuł linku
+    "Wyszukaj".
+  </p>
+  <div class="col-md-5 scratchpad"></div>
+  <span
+    class="help-tooltip icon-question"
+    data-toggle="tooltip"
+    data-original-title="Wpisz swoje odpowiedzi w lewym polu, a wynikowy Markdown pojawi się w prawym polu. Gdy twoja odpowiedź będzie prawidłowa, przejdziesz do następnej lekcji"
+  ></span>
+  <div class="col-md-5 renderpad"></div>
+</div>
+<button class="btn btn-default btn-skip">Pomiń</button>
+
+<div class="toBeRevealed">
+  <div class="row">
+    <hr />
+    <p>Świetna robota!</p>
+    <p>
+      Możesz użyć kursywy lub pogrubienia na tytule linku, jeśli chcesz. W polu
+      poniżej utwórz pogrubioną tytuł linku "i tak wole psy" i umieść cały link
+      do zdania to www.dailykitten.com. Upewnij się, że pogrubienie występuje w
+      nawiasach tytułu łącza.
+    </p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Pomiń</button>
+</div>
+
+<div class="toBeRevealed">
+  <div class="row">
+    <hr />
+    <p>Super!</p>
+    <p>
+      Chociaż może to być dziwne, możesz również tworzyć linki w nagłówkach[].
+    </p>
+    <p>
+      W następnym ćwiczeniu ustaw tekst na czwarty nagłówek. Następnie i zmień
+      wyrażenie „BBC” w link do strony www.bbc.com/news:
+    </p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Pomiń</button>
+</div>
+
+<div class="toBeRevealed">
+  <div class="row">
+    <hr />
+    <p>To wszystko na temat pisania linków inline.</p>
+    <p>
+      Drugi typ łącza nazywa się linkiem <em>odnośnikiem (ang. reference)</em>.
+      Jak sama nazwa wskazuje, link jest w rzeczywistości odniesieniem do innego
+      miejsca w dokumencie. Oto przykład tego, co mamy na myśli:
+    </p>
+    <pre>
+    Oto [link do czegoś innego][inne miejsce].
+    Oto [jeszcze inny link][inny link].
+    A teraz wróć do [pierwszego linku][innego miejsca].
+      
+    [inne miejsce]: www.github.com
+    [inny link]: www.google.com
+  </pre>
+    <p>
+      "Odniesienia" powyżej to drugi zestaw nawiasów:
+      <code>[inne miejsce]</code> i <code>[inny link]</code>. W dolnej części
+      dokumentu Markdown nawiasy te są zdefiniowane jako odpowiednie linki do
+      stron zewnętrznych. Zaletą stylu linku (ang. reference link) jest to, że
+      wiele linków do tej samej strony zewnętrznej (np. google.com) wymaga
+      modyfikacji tylko w jednym miejscu. Na przykład, jeśli zdecydujemy, że
+      musimy zmienić stronę do której prowadzi link <code>[inne miejsce]</code>,
+      musimy tylko zmienić pojedynczy link referencyjny ("odniesienie") na dole
+      pliku.
+    </p>
+    <p>
+      Łącza referencyjne nie pojawiają się w renderowanym (tym widocznym dla
+      użytkowników) Markdown. Definiujesz je, podając tę samą nazwę znacznika w
+      nawiasach, dwukropek i link. <code>[inne miejsce]: www.github.com</code>
+    </p>
+    <p>
+      W polu poniżej zacząłem pisać linki referencyjne. Musisz je skończyć!
+      Nazwij pierwszy tag referencyjny "zabawnym miejscem" i umieść go na
+      stronie 9gag.com; zrób drugi link do demotywatory.pl (Podpowiedź: spójrz
+      na <code>jeszcze inny link</code> w kodzie wyżej).
+    </p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Pomiń</button>
+</div>
+
+<div class="toBeRevealed">
+  <hr />
+  <p>Teraz wiesz, jak tworzyć linki w Markdown!</p>
+  <a class="btn btn-lg btn-success" href="{{ site.baseurl }}/lesson/4"
+    >Do następnej lekcji!</a
+  >
+</div>

@@ -1,0 +1,91 @@
+---
+layout: default
+title: Obrazy
+number: 4
+---
+
+<div class="row">
+  <p>
+    Obrazy mają również dwa typy, podobnie jak łącza, i oba renderują dokładnie
+    w ten sam sposób. Różnica między linkami a obrazami polega na tym, że obrazy
+    są poprzedzone wykrzyknikiem (<code>!</code>).
+  </p>
+
+  <p>
+    Pierwszy styl obrazu nazywa się <em>inline linkiem do obrazu</em>. Aby
+    utworzyć inline link do obrazu, wprowadź wykrzyknik (<code>!</code>),
+    wprowadź tekst alternatywny w nawiasach (<code>[]</code>), a następnie
+    wprowadź link w nawiasie (<code>()</code>). (Tekst alternatywny to fraza lub
+    zdanie opisujące obraz dla osób niedowidzących.)
+  </p>
+
+  <p>
+    Na przykład, aby utworzyć wbudowany link do obrazu do
+    https://octodex.github.com/images/bannekat.png z tekstem alternatywnym
+    "Benjamin Bannekat", napiszesz to w Markdown:
+    <code
+      >![Benjamin
+      Bannekat](https://octodex.github.com/images/bannekat.png)</code
+    >.
+  </p>
+
+  <p>
+    W polu poniżej przekształć link do obrazu i wypełnij nawiasy klamrowe, aby
+    tekstem alternatywny było "ładny tygrys":
+  </p>
+
+  <div class="col-md-5 scratchpad"></div>
+  <span
+    class="help-tooltip icon-question"
+    data-toggle="tooltip"
+    data-original-title="Type your answers in the left box, and the resulting Markdown appears in the right box. When your answer is correct, you'll be taken to the next lesson"
+  ></span>
+  <div class="col-md-5 renderpad"></div>
+</div>
+<button class="btn btn-default btn-skip">Skip</button>
+
+<div class="toBeRevealed">
+  <div class="row">
+    <hr />
+    <p>Cudownie!</p>
+    <p>
+      Chociaż nie musisz <em>potrzebować</em>, dodawać teksty alternatywnego,
+      spowoduje to, że Twoje treści będą dostępne dla odbiorców, w tym osób
+      niedowidzących, osób używających ebooków lub nie posiadających szybkiego
+      łącza internetowego.
+    </p>
+    <p>
+      W przypadku obrazu z linkiem referencyjnym zastosuj ten sam wzór, co w
+      przypadku linku referencyjny. Poprzedzisz Markdown wykrzyknikiem, a
+      następnie udostępnisz dwa nawiasy klamrowe dla tekstu alternatywnego, a
+      ostatecznie dwa dodatkowe dla znacznika obrazu, na przykład:
+      <code>![Ojciec założyciel][Ojciec] </code> A u dołu strony Markdown
+      zdefiniujesz obraz dla tagu, taki jak:
+      <code>
+        [Ojciec]: http://octodex.github.com/images/founding-father.jpg </code
+      >.
+    </p>
+    <p>
+      W polu poniżej zacząłem umieszczać link do obrazu o typie referencyjnym;
+      musisz je dokończyć, tak jak ostatnia lekcja. Nazwij pierwszy znacznik
+      referencyjny „Czarny” i umieść w nim link do
+      <code>
+        https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg </code
+      >; dodaj drugi obraz do
+      <code>
+        http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png </code
+      >.
+    </p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Skip</button>
+</div>
+
+<div class="toBeRevealed">
+  <hr />
+  <p>Ta da! Nauczyłeś się wszystkiego o dodawaniu zdjęć w Markdown!</p>
+  <a class="btn btn-lg btn-success" href="{{ site.baseurl }}/lesson/5"
+    >Do następnej lekcji!</a
+  >
+</div>
